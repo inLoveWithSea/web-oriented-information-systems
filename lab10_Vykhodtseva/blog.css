@@ -1,0 +1,43 @@
+/* General container for the blog posts */
+.post {
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ddd; /* Subtle border to define the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+    padding: 20px; /* Space inside the card */
+    margin-bottom: 20px; /* Space between cards */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+}
+
+/* Card title styling */
+.post h2 {
+    font-size: 1.5rem; /* Increase the size of the title */
+    margin-bottom: 10px; /* Space below the title */
+    color: #2c3e50; /* Dark blue color */
+}
+
+/* Card content styling */
+.post p {
+    font-size: 1rem; /* Standard text size */
+    line-height: 1.6; /* Better line spacing */
+    color: #555; /* Gray color for better readability */
+}
+
+/* Small text for the post date */
+.post small {
+    color: #999; /* Light gray for less emphasis */
+    font-size: 0.9rem;
+}
+
+/* Hover effect on the card */
+.post:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Styling the horizontal rule */
+.post hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
